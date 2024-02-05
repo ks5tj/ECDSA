@@ -35,11 +35,11 @@ Outputs the private key (`d`), and the public key coordinates (`Qx`, `Qy`).
 Outputs the signature components (`r`, `s`).
 
 - **Verify a Signature:**
-- ./ecdsa.sh verify 43 31 25 25 <public_key_x> <public_key_y> <r> <s> 
+- ./ecdsa.sh verify 43 31 25 25 <public_key_x> <public_key_y> <r> <s>
 - <hash_of_message>
 Outputs `True` if the signature is valid, otherwise `False`.
 
-### Testing
+## Testing
 
 The project includes tests to verify each part of the ECDSA process. It's crucial to test each component thoroughly to ensure correctness. Online calculators for elliptic curve operations and finite field arithmetic can be used for verification.
 
